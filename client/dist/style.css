@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Francois+One|PT+Serif:400,400i,700,700i");
+
+body {
+  margin-top: 50%;
+  margin-left: 70%;
+    display: flex;
+    justify-content: center ;
+    /* align-items: center; */
+    background: linear-gradient(to top left, #200244, #0a0a0a);
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/98/87/background-a-hairstyle-vector-1039887.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    background-size: cover;
+    font-family: Arial;
+  margin: 0 auto; 
+  max-width: 800px; 
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.4em;
+  border-radius: 15px;
+  font-family: "PT Serif", sans-serif;
+  color: #ffffff;
+  background-color: #5c3e3b;
+  border-bottom-left-radius: 25px;
+}
+
+input,textarea{
+    cursor: text;
+    border:groove ;
+    font-size: 1.7em;
+    border-radius: 15px;
+    font-family: "PT Serif", sans-serif;
+    color: #00090b;
+    background-color: #edebeb; 
+}
+.logo {
+  width: 7.7pc;
+  padding: 0% 20px;
+}
+footer {
+  font-size: 1.2em;
+  color: #000000;
+  font-family: "PT Serif", sans-serif;
+  padding: 0px 0px 0px 0px;
+  background:  linear-gradient(to top left, #000000, #ffffff);
+  position: fixed;
+  right : 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+nav  {
+  background: linear-gradient(to top left, #ffffff, #614b4b);
+  display: flex;
+  flex-wrap: wrap;
+  padding-block: 15px;
+  justify-content: space-between;
+  align-items: center;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  position: absolute;
+  right : 0;
+  top: 0;
+  width: 100%;
+  padding: 0px 0px 0px;
+  height: 7pc;
+  font-size: 2pc;
+  position: fixed;
+  
+}
+.list{
+  text-align: center;
+  background: #d8d0d8;
+  opacity: 85%;
+  backdrop-filter: blur(50px);
+border-radius: 8px;
+ margin-right: 0%;
+ transition-duration: 3s;
+ margin-top: 10%;
+ display:grid ;
+ grid-template-columns: repeat(3,1fr);
+justify-items: center;
+justify-content: center;
+padding: 0%;
+gap: 10px  ;
+}
+
+/* .inline{
+  background: linear-gradient(to top left, #000000, #ffffff);
+  display: flex;
+  flex-wrap: wrap;
+  padding-block: 15px;
+  justify-content: space-between;
+  align-items: center;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  position: absolute;
+  right : 0;
+  top: 0;
+  width: 100%;
+  padding: 0px 0px 0px;
+  height: 7pc;
+  font-size: 2pc;
+  position: fixed;
+} */
+.nav-selected {
+   padding: 5px;
+   color: white;
+   font-weight: bold;
+   margin-right: 5px;
+   font-size: 1.1em;
+   cursor: pointer;
+}
+.nav-unselected {
+  padding: 5px;
+  color: rgb(193, 195, 167);
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.login{
+    text-align: center;
+   background: rgba(6, 7, 7, 0.5);
+   backdrop-filter: blur(50px);
+   border-radius: 8px;
+   padding: 10px;
+   cursor: text;
+   border:groove ;
+   font-size: 1.1em;
+   border-radius: 15px; cursor: text;
+   border:groove ;
+   font-size: 1.1em;
+   border-radius: 15px;
+   /* margin-top: 50%;
+  margin-left: 70%; */
+}
+.loginn{
+  
+  margin-top: 50%;
+  margin-left: 70%;
+}
+.signup{
+  
+  margin-top: 50%;
+  margin-left: 70%;
+
+}
+.myposts{
+  text-align: center;
+  background: rgba(6, 7, 7, 0.5);
+  backdrop-filter: blur(50px);
+  border-radius: 8px;
+  padding: 10px;
+  cursor: text;
+  border:groove ;
+  font-size: 1.1em;
+  border-radius: 15px; cursor: text;
+  border:groove ;
+  font-size: 1.1em;
+  border-radius: 15px;
+  margin-top: 30%;
+}
+.profile{
+  text-align: center;
+  background: rgba(6, 7, 7, 0.5);
+  backdrop-filter: blur(50px);
+  border-radius: 8px;
+  padding: 10px;
+  cursor: text;
+  border:groove ;
+  font-size: 1.1em;
+  border-radius: 15px; cursor: text;
+  border:groove ;
+  font-size: 1.1em;
+  border-radius: 15px;
+  margin-top: 30%;
+}
+.create{
+  text-align: center;
+  background: rgba(6, 7, 7, 0.5);
+  backdrop-filter: blur(50px);
+  border-radius: 8px;
+  padding: 10px;
+  cursor: text;
+  border:groove ;
+  font-size: 1.1em;
+  border-radius: 15px; cursor: text;
+  border:groove ;
+  font-size: 1.1em;
+  border-radius: 15px;
+  margin-top: 30%;
+}
