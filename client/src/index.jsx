@@ -128,32 +128,32 @@ const App = () => {
           </div>
         )}
         {barView && (
-          <div>
-            <div
+          <ul id = "ulll">
+            <li
               onClick={() => {
           
                 setView("profile");
               }}
             >
               Profile
-            </div>
-            <div
+            </li>
+            <li
               onClick={() => {
                 setBarView(!barView);
                 setView("home");
               }}
             >
               SignOut
-            </div>
-            <div onClick={() => {
+            </li>
+            <li onClick={() => {
     
               setView("createPost")}}>
               Create Post
-            </div>
-            <div onClick={() => setView("myPosts")}>
+            </li>
+            <li onClick={() => setView("myPosts")}>
               My Posts
-            </div>
-          </div>
+            </li>
+          </ul>
         )}
       
     </nav>

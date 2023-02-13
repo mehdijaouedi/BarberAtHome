@@ -12,21 +12,19 @@ const ListItem = (props) =>{
     <img src={props.post.imageUrl} />
     <h3> {props.post.description}</h3>
     <h2>phone number: {props.post.phoneNumber} </h2>
-
-   <h2>{!show ? 
+<input type="time"></input>
+    <input type="date"></input>
+    <input type="range"></input>
+    <button type="button" > take a place </button>
+    
+   {/* <h2>{!show ? 
         (<button type="button" > take a place </button>) :
         (<input type="time"></input> &&
         <input type="date"></input>&&
         <input type="range"></input> )
       
-      }</h2> 
-    {/* <input type="time"></input>
-    <input type="date"></input>
-    <input type="range"></input>
-    <button type="button" onClick={()=>{
-      props.setRefreshAcc(!props.refreshAcc)
-      }}>{props.post.time &&props.post.date&&props.post.range} take a place </button>
-     */}
+      }</h2>  */}
+    
     
     <button type="button" onClick={()=>{
       updatePostLikes(props.post._id,props.post.likes+1)
